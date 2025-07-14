@@ -3,16 +3,20 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: white;
 }
 nav > ul > li {
     display: inline-block;
-    margin-right: 20px;
     list-style: none;
     color: black;
+    margin: 10px 5px;
 }
 nav > ul > li > a {
     text-decoration: none;
-    color: black;
+    color: white;
+    padding: 5px 10px;
+    border: white 1px solid;
+    border-radius: 5px;
 }
 header > h2, nav {
     display: inline-block;
@@ -22,15 +26,30 @@ nav {
 }
 header > h2 {
     margin: 10px 10px;
-
+    color: white;
 }
 header {
-    background-color: #f0f0f0;
+    background-color: #82C0CC12;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 0.5px solid white;
+    border-top-color: black;
+    position: sticky;
+    top: 0;
 }
-#HomePage, #AboutPage, #ProjectsPage, #ContactPage{
+
+#HomePage, #AboutPage, #ProjectsPage{
     min-height: 100vh;
     padding: 20px;
-    background-color: #f9f9f9;
+    scroll-margin-top: 69px;
+}
+
+#ContactPage {
+    min-height: 92vh;
+    padding: 20px;
+    scroll-margin-top: 69px;
+}
+body { 
+    background: linear-gradient(#102542,#F87060);
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
