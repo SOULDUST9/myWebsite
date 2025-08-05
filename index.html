@@ -34,8 +34,8 @@
         
                 <div class="hero-image">
                     <div id="outside-img-wrapper">
-                        <div id="img-wrapper">
-                            <img src="img/selfPic.png" alt="Sebastian Janeczek">
+                        <div class="img-wrapper">
+                            <img src="img/selfPic.png" alt="Self Image">
                         </div>
                     </div>
                 </div>
@@ -99,13 +99,40 @@
         
 
         <section id="ProjectsPage">
-            <h2 class="title">My Projects</h2>
-            <p>Here are a few highlights of what I've worked on:</p>
-            <ul style="max-width:600px;margin:auto;list-style:none;padding:0;text-align:center;">
-                <li>📱 <strong>Rentify</strong> – Android app for property management</li>
-                <li>💻 <strong>Basic Computer Organization</strong> – Custom architecture simulation</li>
-                <li>🤖 <strong>Smart Harvest Robot</strong> – Raspberry Pi-based vision & automation system</li>
-            </ul>
+            <div id="project-container">
+                <div id="title-container">
+                    <h2 class="title">My Projects</h2>
+                </div>
+                <div id="projects-container">
+                    <button class="nav-arrow" id="prev-projects">&#8592;</button>
+                    <div id="projects">
+                        <div class="about-cardy" id="project1">
+                            <div id="project-wrapper">
+                                <h3 class="title">Project 1</h3>
+                                <p>Description</p>
+                            </div>
+                            <img src="xxx" alt="Project Image">
+                        </div>
+                        <div class="about-cardy" id="project2">
+                            <img src="xxx" alt="Project Image">
+                            <div id="project-wrapper">
+                                <h3 class="title">Project 2</h3>
+                                <p>Description</p>
+                            </div>
+                        </div>
+                        <div class="about-cardy" id="project3">
+                            <div id="project-wrapper">
+                                <h3 class="title">Project 3</h3>
+                                <p>Description</p>
+                            </div>
+                            <img src="xxx" alt="Project Image">
+                        </div>
+                    </div>
+                    <button class="nav-arrow" id="next-projects">&#8594;</button>
+                </div>
+                
+            </div>
+
         </section>
 
         <section id="ContactPage">
