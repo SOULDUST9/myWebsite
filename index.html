@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sebastian Janeczek | Portfolio</title>
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
@@ -11,43 +11,114 @@
         <h2>Sebastian Janeczek</h2>
         <nav>
             <ul>
-                <li><a href="#HomePage">Home 🏠</a></li>
-                <li><a href="#AboutPage">About 👤</a></li>
-                <li><a href="#ProjectsPage">Projects 🛠️</a></li>
-                <li><a href="#ContactPage">Contact ✉️</a></li>
+                <li><a href="#HomePage">Home</a></li>
+                <li><a href="#AboutPage">About</a></li>
+                <li><a href="#ProjectsPage">Projects</a></li>
+                <li><a href="#ContactPage">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="HomePage">
-            <h2 class="title">Welcome to My Portfolio</h2>
-            <p>This is a brief introduction about myself and my work.</p>
-            <div id="outside-img-wrapper">
-                <div id="img-wrapper">
-                    <img src="img/selfPic.png" alt="picture of myself" id="selfImage">
+        <section id="HomePage">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Sebastian Janeczek</span></h1>
+                    <h3 class="tagline">Computer Engineering Student | Full Stack Engineer</h3>
+                    <p>I design and build software & hardware solutions — from web apps to robotics. Explore my portfolio to see my work and skills in action.</p>
+                    
+                    <div class="hero-buttons">
+                        <a target="_blank" href="CV.pdf" class="btn-primary">📄 Download CV</a>
+                        <a href="#ProjectsPage" class="btn-secondary">🚀 View Projects</a>
+                    </div>
+                </div>
+        
+                <div class="hero-image">
+                    <div id="outside-img-wrapper">
+                        <div id="img-wrapper">
+                            <img src="img/selfPic.png" alt="Sebastian Janeczek">
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <p>Feel free to explore my portfolio and learn more about my projects and experiences.</p>
-            <p>Thank you for visiting!</p>
-            <a target="_blank" href="CV.pdf" id="CV">Download My CV</a>
-        </div>
-        <div id="AboutPage">
-            <h2 class="title">About Me</h2>
-            <p>Here you can find information about my background, skills, and experiences.</p>
-        </div>
-        <div id="ProjectsPage">
-            <h2 class="title">My Projects</h2>
-            <p>Explore the projects I have worked on, showcasing my skills and creativity.</p>
-        </div>
-        <div id="ContactPage">
-            <h2 class="title">Contact Me</h2>
-            <p>If you would like</p>
-        </div>
-    </main>
-    <footer>
+        </section>
 
+        <section id="AboutPage">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2 class="title">About Me</h2>
+                    <p>
+                        I am a motivated and detail-oriented <strong><span class="highlight">3rd-year Computer Engineering CO-OP student</span> at the University of Ottawa</strong>, passionate about 
+                        <strong>full stack development, embedded systems, and automation solutions</strong>. My background blends <strong>hands-on hardware experience</strong> 
+                        with <strong>robust software development skills</strong>, enabling me to tackle projects from circuit design to cloud-connected web applications.
+                    </p>
+                    
+                    <p>
+                        I have developed proficiency in a <strong>diverse set of programming languages</strong> including 
+                        <strong>HTML, CSS, JavaScript, Java, Python, C++, Go, Scheme, and Prolog</strong>. I am also experienced with tools like 
+                        <strong>GitHub, VS Code, MATLAB, Multisim, Quartus II, and Android Studio</strong>. Additionally, I work with 
+                        <strong>microcontrollers (Arduino, ESP32)</strong>, <strong>single-board computers (Raspberry Pi)</strong>, and 
+                        <strong>FPGA development (Altera DE2-115)</strong>.
+                    </p>
+                    <div class="about-cardx">
+                        <h3 class="title">Experience Highlights</h3>
+                        <ul>
+                            <li>Designing and analyzing <strong><span class="highlight">electrical circuits</span></strong> and embedded systems.</li>
+                            <li>Developing <strong><span class="highlight">responsive web applications</span></strong> and <strong><span class="highlight">Android apps</span></strong> with integrated databases.</li>
+                            <li>Implementing <strong><span class="highlight">object-oriented programming</span></strong>, <strong><span class="highlight">data structures</span></strong>, 
+                                <strong><span class="highlight">compiler design</span></strong>, and <strong><span class="highlight">concurrent programming</span></strong> to solve engineering problems.</li>
+                            <li>Building <strong><span class="highlight">automation prototypes</span></strong> integrating hardware, sensors, and data-driven software.</li>
+                        </ul>
+                    </div>
+                    
+                    <p>
+                        I thrive in <strong>collaborative environments</strong>, leveraging strong communication skills and a bilingual background 
+                        (English and basic French) to contribute effectively to team projects. My goal is to continue 
+                        <strong>bridging the gap between hardware and software</strong>, creating <strong>innovative, scalable solutions</strong> in fields 
+                        like <strong>IoT, automation, and full stack development</strong>.
+                    </p>
+                    
+                    <p>
+                        Outside of engineering, I enjoy <strong>exploring new programming languages</strong>, 
+                        <strong>building personal projects</strong>, and <strong>expanding my technical skill set</strong> to stay ahead in the 
+                        ever-evolving world of technology.
+                    </p>
+                </div>
+        
+                <div class="about-card">
+                    <h3>🛠 Skills</h3>
+                    <ul>
+                        <li><span class="highlight">Full Stack Development</span> (HTML, CSS, JavaScript, React)</li>
+                        <li><span class="highlight">Embedded Systems</span> (Arduino, ESP32, Raspberry Pi)</li>
+                        <li>Coding langs: Java, Python, Go, Scheme, Prolog</li>
+                        <li>Circuit Analysis and Components (Resistors, Capacitors, etc.)</li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="ProjectsPage">
+            <h2 class="title">My Projects</h2>
+            <p>Here are a few highlights of what I've worked on:</p>
+            <ul style="max-width:600px;margin:auto;list-style:none;padding:0;text-align:center;">
+                <li>📱 <strong>Rentify</strong> – Android app for property management</li>
+                <li>💻 <strong>Basic Computer Organization</strong> – Custom architecture simulation</li>
+                <li>🤖 <strong>Smart Harvest Robot</strong> – Raspberry Pi-based vision & automation system</li>
+            </ul>
+        </section>
+
+        <section id="ContactPage">
+            <h2 class="title">Contact Me</h2>
+            <p>📧 Email: <a href="mailto:sebastian@example.com" style="color:#00E5C3;">sebastian@example.com</a></p>
+            <p>🌐 GitHub: <a href="https://github.com/yourgithub" target="_blank" style="color:#00E5C3;">github.com/yourgithub</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Sebastian Janeczek.</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
