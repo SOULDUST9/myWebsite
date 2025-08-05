@@ -28,6 +28,10 @@ header {
 
 header h2 {
     font-size: 1.8em;
+}
+
+header h2:hover {
+    font-size: 1.85em;
     color: #00E5C3;
 }
 
@@ -47,9 +51,10 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #B388FF;
+    background-color: #00E5C3;
     color: #1C1C1E;
-    border: 1px solid #B388FF;
+    border: 3px solid #15aa93;
+    border-radius: 15px;
 }
 
 #HomePage {
@@ -119,7 +124,7 @@ nav a:hover {
 }
 
 .btn-primary:hover {
-    background-color: #90c0d1;
+    background-color: #15a892;
     transform: scale(1.05);
 }
 
@@ -133,6 +138,10 @@ nav a:hover {
     background-color: #B388FF;
     color: #1C1C1E;
     transform: scale(1.05);
+}
+
+.highlight:hover {
+    color: #15aa93;
 }
 
 .hero-image {
@@ -327,6 +336,10 @@ section, #AboutPage, #ProjectsPage, #ContactPage {
     color: #B388FF;
 }
 
+.title:hover, .titlex:hover {
+    color: #9f6df5;
+}
+
 .nav-arrow {
     font-size: 2.2rem;
     background: none;
@@ -338,8 +351,9 @@ section, #AboutPage, #ProjectsPage, #ContactPage {
 
 
 .nav-arrow:hover {
-    color: #90c0d1;
+    color: #15a892;
     transform: scale(1.10);
+    background: none;
 }
 
 #project-container {
@@ -400,7 +414,7 @@ section, #AboutPage, #ProjectsPage, #ContactPage {
     border: 3px solid #00E5C3;
 }
 
-#project-wrapper {
+.project-wrapper {
     min-width: 150px;
     min-height: 100px;
     max-width: 450px;
@@ -463,7 +477,7 @@ input:focus, textarea:focus {
   
 button {
     padding: 12px;
-    background: #8c5bff;
+    background: #00E5C3;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -473,7 +487,7 @@ button {
 }
   
 button:hover {
-    background: #6b3bff;
+    background: #15a892;
 }
   
 .contact-info {
@@ -493,4 +507,19 @@ button:hover {
   
 .contact-info a:hover {
     text-decoration: underline;
+}
+
+.about-cardx:hover{
+    transform: scale(1.01);
+    background: #353537;
+}
+
+.about-card:hover{
+    transform: scale(1.01);
+    background: #353537;
+}
+
+.about-cardy:hover{
+    transform: scale(1.01);
+    background: #353537;
 }
