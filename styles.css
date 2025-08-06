@@ -523,3 +523,14 @@ button:hover {
     transform: scale(1.01);
     background: #353537;
 }
+
+#project1Img, #project2Img, #project3Img {
+    border-radius: 15px;
+    border: #00E5C3 1px solid;
+    margin: 10px;
+} 
+
+#project1Name, #project1Desc, #project2Name, #project2Desc, #project3Name, #project3Desc {
+    font-size: 95%;
+    margin: 10px;
+}
